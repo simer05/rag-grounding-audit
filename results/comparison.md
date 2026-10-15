@@ -1,0 +1,5 @@
+| Model | Clean correct | Noisy correct | Clean vs noisy p | BM25-retrieved correct | Clean vs retrieved p | Both gold passages retrieved | Answer changed by order | Answered with evidence missing | ...and wrong | Conflict: follows passage | Conflict: follows memory | Conflict, short answers: follows passage | Noisy citation P / R |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| gemma-2-9b | 78.2% [74%, 82%] | 70.8% [67%, 75%] | 1.97e-06 | 53.2% [49%, 58%] | 5.17e-31 | 53.4% [49%, 58%] | 10.8% [8%, 14%] | 40.0% [36%, 44%] | 26.0% [22%, 30%] | 74.3% [72%, 77%] | 5.8% [5%, 7%] | 80.4% [78%, 83%] | 0.93 / 0.70 |
+| llama-3.1-8b | 74.6% [71%, 78%] | 61.4% [57%, 66%] | 2.26e-11 | 44.4% [40%, 49%] | 5.27e-35 | 53.4% [49%, 58%] | 23.0% [20%, 27%] | 26.2% [23%, 30%] | 16.6% [14%, 20%] | 67.1% [64%, 70%] | 3.6% [3%, 5%] | 73.7% [71%, 76%] | 0.91 / 0.67 |
+| mistral-nemo-12b | 69.8% [66%, 74%] | 62.4% [58%, 67%] | 0.000186 | 48.2% [44%, 53%] | 5.39e-19 | 53.4% [49%, 58%] | 17.6% [15%, 21%] | 39.6% [35%, 44%] | 27.8% [24%, 32%] | 64.7% [62%, 67%] | 8.5% [7%, 10%] | 70.4% [67%, 73%] | 0.92 / 0.64 |

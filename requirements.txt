@@ -1,0 +1,8 @@
+# Analysis and tests (CPU)
+pandas>=2.0
+pyarrow>=14
+scipy>=1.11
+# Generation (GPU runs)
+torch>=2.1
+transformers==4.45.0
+accelerate>=0.34

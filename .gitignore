@@ -1,0 +1,8 @@
+data/
+results/*
+!results/comparison.md
+!results/comparison.json
+logs/
+.hf_home/
+__pycache__/
+*.pyc
